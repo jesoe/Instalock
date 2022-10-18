@@ -27,10 +27,10 @@ ifnotexist,[Y]Agent List.txt
     FileAppend, %defaultlisty%, %A_ScriptDir%\[Y]Agent List.txt
     }
 	
-ifnotexist,Continue Button.ini
+ifnotexist,Lock Button.ini
     {
-    IniWrite, 0, Continue Button.ini, Continue Button, xPosition
-    IniWrite, 0, Continue Button.ini, Continue Button, yPosition
+    IniWrite, 0, Lock Button.ini, Lock Button, xPosition
+    IniWrite, 0, Lock Button.ini, Lock Button, yPosition
     }
 
 
@@ -55,8 +55,8 @@ Loop, Read, [Y]Agent List.txt
 for i, element in agents
     names .= i . "|"
 
-IniRead, xContinue, Continue Button.ini, Continue Button, xPosition
-IniRead, yContinue, Continue Button.ini, Continue Button, yPosition
+IniRead, xLock, Lock Button.ini, Lock Button, xPosition
+IniRead, yLock, Lock Button.ini, Lock Button, yPosition
 
 
 ;----  GUI
@@ -130,7 +130,7 @@ Loop
 		Sleep %var%
 		DllCall("mouse_event", "UInt", 0x04)
 		Sleep %var2%
-        DllCall("SetCursorPos", "int", xContinue, "int", yContinue)
+        DllCall("SetCursorPos", "int", xLock, "int", yLock)
 		Sleep %var%
 		DllCall("mouse_event", "UInt", 0x02)
 		Sleep %var%

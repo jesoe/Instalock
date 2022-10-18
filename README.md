@@ -20,7 +20,7 @@ Instalocks selected agent.
 
 After running for the first time, the following three files will be generated within the directory:
 
-### [Continue Button.ini](Continue%20Button.ini) = Continue Button Coordinates (**X/Y**)
+### [Lock Button.ini](Lock%20Button.ini) = Lock Button Coordinates (**X/Y**)
 
 ### [[X]Agent List.txt]([X]Agent%20List.txt) = Agent Portrait Coordinates (**X**)
 
