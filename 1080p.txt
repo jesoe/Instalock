@@ -1,0 +1,48 @@
+Copy/Paste each list below.
+Keep in mind that this preset assumes you have every agent unlocked and play at 1920x1080 resolution.
+
+--------- [X] Coordinates ---------
+
+Astra:585
+Breach:665
+Brimstone:755
+Chamber:835
+Cypher:925
+Fade:1005
+Harbor:1085
+Jett:1175
+Kayo:1255
+Killjoy:1345
+Neon:585
+Omen:665
+Phoenix:755
+Raze:835
+Reyna:925
+Sage:1005
+Skye:1085
+Sova:1175
+Viper:1255
+Yoru:1345
+
+--------- [Y] Coordinates ---------
+
+Astra:925
+Breach:925
+Brimstone:925
+Chamber:925
+Cypher:925
+Fade:925
+Harbor:925
+Jett:925
+Kayo:925
+Killjoy:925
+Neon:1010
+Omen:1010
+Phoenix:1010
+Raze:1010
+Reyna:1010
+Sage:1010
+Skye:1010
+Sova:1010
+Viper:1010
+Yoru:1010

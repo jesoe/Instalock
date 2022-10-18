@@ -34,6 +34,9 @@ You can use these files to configure the proper coordinates of agent portraits a
 3. Copy/Paste the direct image URL [HERE](https://inkplant.com/tools/image-coordinates) and click 'Swap Image'.
 4. Click on the locations of the image you need coordinates for and enter them where necessary in the generated files.
 
+### Coordinate resolution presets
+- [1080p](1080p.txt)
+
 ## Compiling (Optional)
 If you would like to compile the script yourself, follow this step by step.
 
