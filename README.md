@@ -1,66 +1,49 @@
-# VALORANT Agent Picker
-Automatically picks a selected agent as soon as possible.
+# VALORANT Instalock
+Instalocks selected agent.
 
-### AutoHotkey is not required to run the executable!
-### [DOWNLOAD HERE](https://github.com/pintoso/Agent-Picker/releases/latest/download/AgentPicker.exe)
-#### if your antivirus does not like the file, this is a FALSE positive, check the [VIRUSTOTAL](https://www.virustotal.com/gui/file/b16bab869527ccafd8c885928012ffbef102175358ce744e751495029da1ce34/detection) scan
-or just [compile it yourself](#compiling)
-
+### [DOWNLOAD HERE](https://github.com/)
 
 ![](https://i.imgur.com/0nYAqMg.png)
 
-Stop crying because someone is playing badly with your main agent
+## Installation
+[Download](https://github.com/) and drag the .exe into it's own folder.
 
 ## How to use
-1. Download & run executable
-2. Run VALORANT
-3. Choose a agent via the dropdown
+1. Run Instalock.
+2. Select an agent via the dropdown menu.
+3. Start a queue.
+4. Press **F4** to toggle the script on.
+5. After the agent is locked, press **F4** to toggle the script off.
+6. Press **F9** to exit the script.
 
-4. Start a queue
-5. Press F4 to toggle script
-6. Agent selected?
-7. Press F4 again
-8. Profit
+## How to configure for your resolution / available agents
 
-# How to configure for your resolution
+After running for the first time, the following three files will be generated within the directory:
 
-[Continue Button.ini](Continue%20Button.ini) = XY Continue Button position
+### [Continue Button.ini](Continue%20Button.ini) = Continue Button Coordinates (**X/Y**)
 
-[[X]Agent List.txt]([X]Agent%20List.txt) = X Agents position
+### [[X]Agent List.txt]([X]Agent%20List.txt) = Agent Portrait Coordinates (**X**)
 
-[[Y]Agent List.txt]([Y]Agent%20List.txt) = Y Agents position
+### [[Y]Agent List.txt]([Y]Agent%20List.txt) = Agent Portrait Coordinates (**Y**)
 
-You can add agents or correct the position of existing ones after an update or for a different resolution.
-Simply take a screenshot of the agent selection screen and use pretty much any image editor to acquire a certain icon's coordinates.
+You can use these files to configure the proper coordinates of agent portraits as well as alter them to work with your specific resolution.
 
-Or use [the online method](https://github.com/pintoso/Agent-Picker/issues/2) (very easy)
+### How to find coordinates
+1. Take a screen shot of the agent selection screen.
+2. Upload it to any image hosting site. [Imgur](https://imgur.com/upload), [Google](https://photos.google.com/), etc.
+3. Copy/Paste the direct image URL [HERE](https://inkplant.com/tools/image-coordinates) and click 'Swap Image'.
+4. Click on the locations of the image you need coordinates for and enter them where necessary in the generated files.
 
-## Compiling
-if you want to compile by yourself for security reasons, follow this step by step to compile correctly in `.exe`
-
-(step 7 and 8 are optional)
+## Compiling (Optional)
+If you would like to compile the script yourself, follow this step by step.
 
 1. Install [AHK](https://www.autohotkey.com/download/)
-
-2. Download/clone the [github repository](https://github.com/pintoso/Agent-Picker)
-
-3. Download [Ahk2Exe Beta](https://github.com/AutoHotkey/Ahk2Exe/releases/tag/Ahk2Exe_v1.1.34.00_Beta_1)
-
-4. Install Ahk2Exe Beta following these [instructions](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=65095)
-
-5. Download, compile and install [BinMod.ahk](https://github.com/AutoHotkey/Ahk2Exe/blob/master/BinMod.ahk) (follow the instructions on line 15)
-
-6. Compile `AgentPicker.ahk` using Ahk2Exe using these [settings](https://i.imgur.com/Od8XPH7.png)
-
-7. Download [imageCFG](https://robpol86.com/imagecfg.html) and place it in the same `AgentPicker.exe` folder
-
-8. open CMD in that folder and run `imagecfg -u AgentPicker.exe`
-
+2. Download/Clone the [github repository](https://github.com/jesoe/Instalock)
+6. Compile `Instalock.ahk` using Ahk2Exe with Unicode 32-bit.bin + MPRESS.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
 
-
-> > based on the [Overwatch Hero Picker](https://github.com/Robert-K/overwatch-hero-picker/)
+> Forked from [Agent Picker](https://github.com/pintoso/Agent-Picker) based on the [Overwatch Hero Picker](https://github.com/Robert-K/overwatch-hero-picker/)
