@@ -1,12 +1,12 @@
 # VALORANT Instalock
 Instalocks selected agent.
 
-### [DOWNLOAD HERE](https://github.com/)
+### [DOWNLOAD HERE](https://github.com/jesoe/Instalock/releases/download/v1.0.0/Instalock.exe)
 
-![](https://i.imgur.com/0nYAqMg.png)
+![](https://i.imgur.com/7Lq0j45.png)
 
 ## Installation
-[Download](https://github.com/) and drag the .exe into it's own folder.
+[Download](https://github.com/jesoe/Instalock/releases/download/v1.0.0/Instalock.exe) and drag the .exe into it's own folder.
 
 ## How to use
 1. Run Instalock.
@@ -44,6 +44,6 @@ If you would like to compile the script yourself, follow this step by step.
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-[![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 > Forked from [Agent Picker](https://github.com/pintoso/Agent-Picker) based on the [Overwatch Hero Picker](https://github.com/Robert-K/overwatch-hero-picker/)
