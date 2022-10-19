@@ -46,3 +46,9 @@ Skye:1010
 Sova:1010
 Viper:1010
 Yoru:1010
+
+--------- Lock Button Coordinates ---------
+
+[Lock Button]
+xPosition=960
+yPosition=815
